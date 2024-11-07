@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout GitHub repo') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/sauvikdevops/dockerdemo']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Swap-nil-2003/docker-devops-demo']])
             }
         }
         stage('Build and Tag Docker Image') {

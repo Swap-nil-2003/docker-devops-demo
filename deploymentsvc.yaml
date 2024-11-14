@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hellodocker-deployment
-        image: jamesndubuisi/hellodocker
+        image: swapnilab26/learning
         imagePullPolicy: Always
         ports:
         - containerPort: 80
